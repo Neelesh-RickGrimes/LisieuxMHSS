@@ -162,6 +162,7 @@ card{
 
 .editor{
     margin:auto;
+	border-bottom:2px solid white;
 }
 .art-k{
     margin:5px auto;
@@ -365,9 +366,6 @@ td:hover,th:hover,.g-head:hover{
     width:75%;
 }
 
-footer{
-	border-top:1px solid white;
-}
 
 
 
