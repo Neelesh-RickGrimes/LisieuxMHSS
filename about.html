@@ -44,23 +44,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link mask rgba-white-slight floating" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mask rgba-white-slight floating" href="linkx.html">LINKX</a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="linkx.html">LINKX</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mask rgba-white-slight floating" href="admission">Admissions</a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="admission">Admissions</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mask rgba-white-slight floating" href="about.html">About Us</a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="about.html">About Us</a>
 
               </li>
               <li class="nav-item active">
-                <a class="nav-link mask rgba-white-slight floating" href="staff.html">Staff</a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="staff.html">Staff</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link mask rgba-white-slight floating" href="contact.html">Staff</a>
+                <a onmouseover ="add()" class="nav-link mask rgba-white-slight " href="contact.html">Staff</a>
               </li>
             </ul>
           </div>
@@ -167,5 +167,11 @@
 
         </footer>
     </body>
+<script>
+  function add() { 
+document.getElementsByClassName("nav-link").classList.add('MyClass');
+    } 
+//document.getElementsByClassName("MyElement").classList.remove('MyClass');
+    </script>
 </html>
 
